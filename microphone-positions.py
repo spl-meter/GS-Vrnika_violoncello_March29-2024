@@ -168,7 +168,6 @@ for kk in range(30,36):
     z1.append(df_mic.z.iloc[kk])
 tr_m6 = go.Scatter3d(x=x1,y=y1,z=z1,mode='lines', name='mics line 6')
 
-
 x1 = list();y1 = list();z1 = list(); 
 for kk in range(36,42):
     x1.append(df_mic.x.iloc[kk])

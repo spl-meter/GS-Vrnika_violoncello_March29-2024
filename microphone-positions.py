@@ -8,7 +8,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 import plotly
-#plotly.offline.init_notebook_mode()
 
 CSH=px.colors.qualitative.Safe
 MS=3

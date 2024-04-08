@@ -154,7 +154,6 @@ for kk in range(18,24):
     z1.append(df_mic.z.iloc[kk])
 tr_m4 = go.Scatter3d(x=x1,y=y1,z=z1,mode='lines', name='mics line 4')
 
-
 x1 = list();y1 = list();z1 = list(); 
 for kk in range(24,30):
     x1.append(df_mic.x.iloc[kk])
@@ -185,8 +184,6 @@ trace2 = go.Scatter3d(
     name='room corners'
 )
 
-
-
 fig = go.Figure(data=[trace1, trace1B, trace2,tr_m1,tr_m2,tr_m3,tr_m4,tr_m5,tr_m6,tr_m7])
-st.plotly_chart(fig, filename='room',use_container_width=True,height=1800,)
+st.plotly_chart(fig, filename='room',use_container_width=True,height=1800)
 
